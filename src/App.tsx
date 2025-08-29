@@ -4,8 +4,7 @@ import {
   AppBar,
   Button,
   Container,
-  Toolbar,
-  Typography
+  Toolbar
 } from "@mui/material";
 import { ThemeProvider } from '@mui/material/styles';
 import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
@@ -13,7 +12,6 @@ import "./App.css";
 import PersonalAccount from "./components/PersonalAccount/PersonalAccount";
 import theme from './theme';
 
-// Example components for routing
 function Home() {
   return (
     <>
